@@ -501,7 +501,8 @@ p
 /* start contact */
 #contact
     {
-        background: url('../images/contact-bg.jpg');
+        
+        background-color: #666;
         background-size: cover;
         background-repeat: no-repeat;
         color: #ffffff;
