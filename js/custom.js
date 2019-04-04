@@ -111,3 +111,13 @@ jQuery(document).ready(function($){
             event.preventDefault();
         });
     });
+
+    function mapsSelector() {
+      if /* if we're on iOS, open in Apple Maps */
+        ((navigator.platform.indexOf("iPhone") != -1) || 
+         (navigator.platform.indexOf("iPad") != -1) || 
+         (navigator.platform.indexOf("iPod") != -1))
+        window.open("maps://www.google.com/maps/place/Protezione+Civile+Nucleo+Emergenza+Ss.+Trinita'/@43.873961,8.004732,15z/data=!4m5!3m4!1s0x0:0xb1679c7ec728159d!8m2!3d43.873961!4d8.004732");
+    else /* else use Google */
+        window.open("https://www.google.com/maps/place/Protezione+Civile+Nucleo+Emergenza+Ss.+Trinita'/@43.873961,8.004732,15z/data=!4m5!3m4!1s0x0:0xb1679c7ec728159d!8m2!3d43.873961!4d8.004732");
+    }
