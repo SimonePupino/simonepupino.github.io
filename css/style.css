@@ -203,7 +203,7 @@ p
 /* start about */
 #about h3
     {
-        color: #93ca3a;
+        color: #3a7cff;
         font-size: 40px;
         padding-bottom: 10px;
     }
@@ -219,7 +219,7 @@ p
     }
 #about .progress .progress-bar-danger
     {
-        background: #93ca3a;
+        background: #3a7cff;
     }
 #about .text-top
     {
@@ -280,7 +280,7 @@ p
 #pricing .plan .plan_title
   {
     border-bottom: 1px solid #f6f6f6;
-    color: #9bc848;
+    color: #3a7cff;
     font-size: 30px;
     padding: 20px;
   }
@@ -295,7 +295,7 @@ p
   }
 #pricing .plan .btn
   {
-    background: #93ca3a;
+    background: #3a7cff;
     border: none;
     border-radius: 2px;
     font-weight: bold;
@@ -308,7 +308,7 @@ p
 #pricing .plan .btn:hover
   {
     background: #FFFFFF;
-    color: #66AF33;
+    color: #3a7cff;
   }
 /* end pricing */
 
@@ -328,7 +328,7 @@ p
     }
 #contact .fa
     {
-        color: #93ca3a;
+        color: #3a7cff;
         font-size: 18px;
         padding-bottom: 14px;
     }
@@ -352,7 +352,7 @@ p
     }
 #contact input[type="submit"]:hover
     {
-        background: #93ca3a;
+        background: #3a7cff;
     }
  #contact .form-control::-moz-placeholder {
   color: #666;
