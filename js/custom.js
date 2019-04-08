@@ -3,14 +3,14 @@
 var map = '';
 var center;
 
-function initialize() {
+/*function initialize() {
     var mapOptions = {
       zoom: 16,
       center: new google.maps.LatLng(40.7679619,-73.9800172),
       scrollwheel: false
     };
   
-    map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+    /map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
 
     google.maps.event.addDomListener(map, 'idle', function() {
         calculateCenter();
@@ -30,7 +30,7 @@ function loadGoogleMap(){
     script.type = 'text/javascript';
     script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
     document.body.appendChild(script);
-}
+}*/
 
 // Flexslider
 $(function(){
@@ -42,7 +42,7 @@ $(function(){
 
   new WOW().init();
 
-  loadGoogleMap();
+  //loadGoogleMap();
 });
 
 // isotope
@@ -102,7 +102,7 @@ jQuery(document).ready(function($){
     });
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(function() {
+   /* $(function() {
         $('.navbar-default a, a,').bind('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
@@ -110,4 +110,4 @@ jQuery(document).ready(function($){
             }, 1000);
             event.preventDefault();
         });
-    });
+    });*/
