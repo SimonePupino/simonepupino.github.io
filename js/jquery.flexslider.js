@@ -394,7 +394,7 @@
           accDx = 0;
 
         if(!msGesture){
-            el.addEventListener('touchstart', onTouchStart, false);
+            el.addEventListener('touchstart', onTouchStart, false, {passive: true});
 
             function onTouchStart(e) {
               if (slider.animating) {
