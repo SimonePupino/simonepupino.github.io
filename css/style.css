@@ -321,11 +321,10 @@ p
 /* start contact */
 #contact
     {
-        
-        background-color: rgb(146, 146, 146);
+        background-color: #dddddd;
         background-size: cover;
         background-repeat: no-repeat;
-        color: #ffffff;
+        
     }
 #contact h3
     {
@@ -338,14 +337,7 @@ p
         font-size: 18px;
         padding-bottom: 14px;
     }
-#contact .form-control
-    {
-        background: #f2f2f2;
-        border-radius: 4px;
-        box-shadow: none;
-        margin-bottom: 20px;
-        transition: all 0.4s ease-in-out;
-    }
+
 #contact input {
         height: 50px;
     }
@@ -368,20 +360,21 @@ p
   color: #666;
 }
 #contact a.ctlink:link {
-    color: #FFFFFF;
+    color: rgb(2, 2, 2);
     }
 #contact a.ctlink:visited {
-    color:#FFFFFF;
+    color:rgb(0, 0, 0);
     }
 #contact a.ctlink:hover {
-    color: #ffc400;
+    color: #3700ff;
     }
 
 /* end contact */
 
 /* start footer */
-footer
+#footer
     {
+        background-color: #dddddd;
         padding-top: 40px;
         padding-bottom: 20px;
     }
