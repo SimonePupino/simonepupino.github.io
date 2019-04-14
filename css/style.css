@@ -33,49 +33,17 @@ p
     }
 /* end all section */
 
-/* start nagivation */
-.navbar-default
-    {
-        background: #fff;
-        border: none;
-        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-        margin: 0 !important;
-        padding: 0;
-    }
-.navbar-default .navbar-brand
-    {
-        padding-top: 4px;
-        padding-bottom: 60px;
-    }
-.navbar-default .navbar-nav li a
-    {
-        font-size: 13px;
-        font-weight: bold;
-        line-height: 35px;
-    }
-.navbar-default .navbar-nav li a:hover
-    {
-        color: #3a7cff;
-    }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffc400;
-  background-color: transparent;
+/* start navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #3a7cff;
+    font-weight: bold;
 }
-.navbar-default .navbar-toggle
-    {
-        border: none;
-        padding-top: 16px;
-    }
-.navbar-default .navbar-toggle .icon-bar
-    {
-        background: #93ca3a;
-        border-color: transparent;
-    }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { background-color: transparent }
-/* end navigation */
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffc400;
+    font-weight: bold;
+}
+/* end navbar */
 
 /* start home */        
 #home
@@ -183,28 +151,6 @@ p
         padding-bottom: 10px;
     }
 /* end service */
-
-/* start divider */
-#divider
-    {
-        background: url('../images/divider-bg.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: #FFFFFF;
-    }
-#divider h2
-    {
-        font-size: 40px;
-    }
-#divider strong
-    {
-        color: #93ca3a;
-    }
-#divider h3
-    {
-        padding-bottom: 30px;
-    }
-/* end divider */
 
 /* start about */
 #about h3
