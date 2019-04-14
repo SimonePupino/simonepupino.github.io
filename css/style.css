@@ -332,6 +332,12 @@ footer .social-icon
     {
         top: 0px;
     }
+#footer a {
+    color: black;
+}
+#footer a:hover {
+    color: blue;
+}
 /* end footer */
 
 .too-icon {
