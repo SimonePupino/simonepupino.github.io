@@ -101,13 +101,15 @@ $('.navbar-collapse a').click(function () {
   $(".navbar-collapse").collapse('hide');
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-/* $(function() {
-     $('.navbar-default a, a,').bind('click', function(event) {
-         var $anchor = $(this);
-         $('html, body').stop().animate({
-             scrollTop: $($anchor.attr('href')).offset().top - 68
-         }, 1000);
-         event.preventDefault();
-     });
- });*/
+//Swipe Function
+jQuery( function( $ ) {
+  $( '.carousel-inner' ).swipe( {
+      swipeLeft: function( e, direction, distance, duration, count ) {
+          $( this ).parent().carousel( 'next' );
+      },
+      swipeRight: function( e, direction, distance, duration, count ) {
+          $( this ).parent().carousel( 'prev' );
+      },
+          threshold: 0
+  } );
+} );
